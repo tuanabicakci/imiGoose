@@ -1,7 +1,13 @@
 {
   "name": "imigoose-expo",
+  "description": "A mobile companion app for navigating Canadian immigration — CRS calculator, pathways, documents, and community.",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuanabicakci/imiGoose.git"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",

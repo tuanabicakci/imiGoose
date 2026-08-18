@@ -31,6 +31,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
@@ -39,3 +40,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# AI assistant config (local dev tooling, not part of the app)
+.claude/
+CLAUDE.md
+AGENTS.md
+.cursorrules
+.windsurfrules
